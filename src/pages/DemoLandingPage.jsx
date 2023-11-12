@@ -6,7 +6,7 @@ export default function DemoLandingPage() {
   return (
     <section className="bg-[#EFF1FF] h-screen">
       <header className="p-3 py-6 px-16">
-        <img src={logo} alt="nalam" className="w-20 pt-6 pb-12 ml-16 mb-12" />
+        <img src={logo} alt="Nalam" className="w-20 pt-6 pb-12 ml-16 mb-12" />
       </header>
 
       <div className="flex">
@@ -38,7 +38,7 @@ export default function DemoLandingPage() {
           </Link>
         </div>
 
-        <img src={mehendiHands} className="w-96 mx-16" />
+        <img src={mehendiHands} alt="Childrens hands with Mehendi above books." className="w-96 mx-16" />
       </div>
     </section>
   );

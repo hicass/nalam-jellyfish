@@ -13,7 +13,7 @@ export default function SocialMediaShare() {
             id="message-box-1"
             className="w-[704px] border-2 border-[#25348F] p-6">
             <div id="message-content-1" className="flex">
-              <img src={groupPhoto} />
+              <img src={groupPhoto} alt="Group of kids" />
               <p className="text-left">
                 Yesterday was the first day of school! Sharing a photo of us
                 getting ready for 11th grade!

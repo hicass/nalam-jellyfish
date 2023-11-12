@@ -23,11 +23,11 @@ export default function DonorProfile() {
         </h1>
       </div>
       <div className="flex items-center justify-center mt-10">
-        <img src={badge1} className="h-14 m-1 object-cover" />
-        <img src={badge2} className="h-14 m-1 object-cover" />
-        <img src={badge3} className="h-14 m-1 object-cover" />
-        <img src={badge4} className="h-14 m-1 object-cover" />
-        <img src={badge5} className="h-16 m-1 object-cover" />
+        <img src={badge1} alt="Donor Badge" className="h-14 m-1 object-cover" />
+        <img src={badge2} alt="Donor Badge" className="h-14 m-1 object-cover" />
+        <img src={badge3} alt="Donor Badge" className="h-14 m-1 object-cover" />
+        <img src={badge4} alt="Donor Badge" className="h-14 m-1 object-cover" />
+        <img src={badge5} alt="Donor Badge" className="h-16 m-1 object-cover" />
       </div>
       <div>
         <h2 className="mt-8 text-2xl font-extrabold text-left text-[#25348F]">

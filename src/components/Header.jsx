@@ -10,7 +10,7 @@ export default function Header() {
           <img src={navigateBefore} alt="Back arrow" className="w-10 pt-5" />
         </Link>
         <Link to="/">
-          <img src={logo} alt="nalam" className="mb-8 ml-16 w-20 pt-6" />
+          <img src={logo} alt="Nalam" className="mb-8 ml-16 w-20 pt-6" />
         </Link>
       </div>
     </>

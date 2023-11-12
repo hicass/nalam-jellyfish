@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import UpcomingProjects from "./UpcomingProjects";
-import youngGirl from "../assets/younggirl.jpg";
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.jpeg";
+import { Link } from 'react-router-dom';
+import UpcomingProjects from './UpcomingProjects';
+import youngGirl from '../assets/younggirl.jpg';
+import img1 from '../assets/img1.png';
+import img2 from '../assets/img2.jpeg';
 
 // props for number of girls entering whatever grade
 
@@ -16,11 +16,11 @@ export default function MoreSupport() {
   // ));
 
   const buttonTypes = [
-    "Education",
-    "Medical",
-    "Facility",
-    "Job",
-    "Upper Education",
+    'Education',
+    'Medical',
+    'Facility',
+    'Job',
+    'Upper Education',
   ];
   return (
     <>
@@ -41,7 +41,8 @@ export default function MoreSupport() {
                 <button
                   key={index}
                   className="mr-4 rounded-full border-2 border-[#25348F] bg-[#EFF1FF] text-[#25348F] hover:bg-[#25348F] hover:text-white"
-                  type="button">
+                  type="button"
+                >
                   <p className="px-10">{buttonType}</p>
                 </button>
               ))}
@@ -50,17 +51,36 @@ export default function MoreSupport() {
         </div>
         <div
           id="scroll-bar-container"
-          className="max-h-[500px] overflow-y-auto">
+          className="max-h-[500px] overflow-y-auto"
+        >
           <div className="flex flex-wrap justify-between ">
-            <UpcomingProjects image={youngGirl} />
-            <UpcomingProjects image={img1} />
-            <UpcomingProjects image={img2} />
-            <UpcomingProjects image={youngGirl} />
-            <UpcomingProjects image={img1} />
-            <UpcomingProjects image={img2} />
-            <UpcomingProjects image={youngGirl} />
-            <UpcomingProjects image={img1} />
-            <UpcomingProjects image={img2} />
+            <Link to="/project">
+              <UpcomingProjects image={youngGirl} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img1} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img2} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={youngGirl} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img1} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img2} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={youngGirl} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img1} />
+            </Link>
+            <Link to="/project">
+              <UpcomingProjects image={img2} />
+            </Link>
             {/* {repeatedCards} */}
           </div>
         </div>

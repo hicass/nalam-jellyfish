@@ -10,7 +10,7 @@ export default function ActiveProject({ progressPercent }) {
   
         <div className="absolute top-0 w-full">
           <div className="mx-3 my-2 flex flex-row items-center">
-            <img src={badge1} className="h-8" />
+            <img src={badge1} alt="Donor Badge" className="h-8" />
             <p className="mx-3 text-[#FFFFFF]">
               Together with <span className="font-extrabold">72</span> donors
             </p>
