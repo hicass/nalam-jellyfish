@@ -8,7 +8,7 @@ export default function ProjectDetailPage() {
     <div>
       <Header />
       <section className="flex">
-        <div className="w-2/6">
+        <div className="mr-20">
           <ProjectPageLeft />
         </div>
         <div className="flex flex-grow flex-col">
