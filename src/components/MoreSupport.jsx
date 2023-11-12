@@ -20,7 +20,7 @@ export default function MoreSupport() {
     'Medical',
     'Facility',
     'Job',
-    'Upper Education',
+    'Wellness',
   ];
   return (
     <>

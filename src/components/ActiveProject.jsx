@@ -4,7 +4,7 @@ import badge1 from '../assets/badge-1.png';
 export default function ActiveProject({ progressPercent }) {
     return (
       <div className="w-7/8 relative mx-1 mt-2 rounded-xl">
-        <img className="h-46 object-cover rounded-xl" src={activeProjectGirl} alt="Young girl" />
+        <img className="h-40 w-full object-cover rounded-xl" src={activeProjectGirl} alt="Young girl" />
   
         <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#25348F] via-[#25348F]  to-transparent opacity-60"></div>
   
