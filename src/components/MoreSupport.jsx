@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import UpcomingProjects from "./UpcomingProjects";
 
 // props for number of girls entering whatever grade
 
 export default function MoreSupport() {
-  const numOfCards = 10;
+  const numOfCards = 12;
 
   const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
-    <Link to="/project" >
+    <Link to="/project">
       <UpcomingProjects className="" key={index} />
     </Link>
   ));
@@ -45,9 +45,13 @@ export default function MoreSupport() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between overflow-y-scroll">
-          {/* <UpcomingProject /> */}
-          {repeatedCards}
+        <div
+          id="scroll-bar-container"
+          className="max-h-[500px] overflow-y-auto">
+          <div className="flex flex-wrap justify-between ">
+            {/* <UpcomingProject /> */}
+            {repeatedCards}
+          </div>
         </div>
       </div>
     </>
