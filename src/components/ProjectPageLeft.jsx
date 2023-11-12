@@ -10,7 +10,8 @@ export default function ProjectPageLeft() {
           {/* replace with prop for future implementation */}
           <h1 className="text-5xl">9 girls entering 11th grade</h1>
           <p className="text-3xl font-light">
-            Support <strong>9</strong> girls
+            {/* make quantity of girls and type of grade as prop later */}
+            Support <span className="font-bold">9</span> girls
           </p>
         </div>
       </div>
