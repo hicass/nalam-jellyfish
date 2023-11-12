@@ -1,9 +1,10 @@
-import younggirl from "../assets/younggirl.jpg";
+// import younggirl from "../assets/younggirl.jpg";
+import younggirl from "../assets/resizedyounggirl.png";
 
 export default function ProjectPageLeft() {
   return (
     <>
-      <div className="relative w-2/6">
+      <div className="relative">
         <img src={younggirl} className="" alt="Young Girl" />
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-b from-transparent to-[#25348F]"></div>
         <div className="absolute bottom-5 w-auto pb-32 pl-10 text-left text-[#FFFFFF] ">
