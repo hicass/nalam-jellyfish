@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import UpcomingProjects from "./UpcomingProjects";
 
 // props for number of girls entering whatever grade
@@ -6,7 +7,9 @@ export default function MoreSupport() {
   const numOfCards = 10;
 
   const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
-    <UpcomingProjects className="" key={index} />
+    <Link to="/project" >
+      <UpcomingProjects className="" key={index} />
+    </Link>
   ));
 
   const buttonTypes = [
