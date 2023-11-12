@@ -3,10 +3,10 @@ import UpcomingProjects from "./UpcomingProjects";
 // props for number of girls entering whatever grade
 
 export default function MoreSupport() {
-  const numOfCards = 5;
+  const numOfCards = 10;
 
   const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
-    <UpcomingProjects className="px-4" key={index} />
+    <UpcomingProjects className="" key={index} />
   ));
 
   const buttonTypes = [
@@ -19,14 +19,14 @@ export default function MoreSupport() {
   return (
     <>
       <div id="more-support-container" className="px-6">
-        <h1 className="pb-10 text-4xl font-semibold text-[#25348F]">
-          Show More Support On
+        <h1 className="pb-6 text-left text-4xl font-semibold text-[#25348F]">
+          We need your support!
         </h1>
 
-        <div id="sort-by" className="flex flex-col">
+        <div id="sort-by" className="flex flex-col pb-6">
           <div id="sort-section" className="flex">
             <div>
-              <p className="text-3xl text-base font-medium text-[#25348F]">
+              <p className="pr-4 text-3xl text-base font-medium text-[#25348F]">
                 sort by:
               </p>
             </div>
@@ -34,15 +34,15 @@ export default function MoreSupport() {
               {buttonTypes.map((buttonType, index) => (
                 <button
                   key={index}
-                  className="mr-4 rounded-full bg-[#25348F]"
+                  className="mr-4 rounded-full border-2 border-[#25348F] bg-[#EFF1FF] text-[#25348F] hover:bg-[#25348F] hover:text-white"
                   type="button">
-                  <p className="px-10 text-white">{buttonType}</p>
+                  <p className="px-10">{buttonType}</p>
                 </button>
               ))}
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-evenly">
+        <div className="flex flex-wrap justify-between overflow-y-scroll">
           {/* <UpcomingProject /> */}
           {repeatedCards}
         </div>

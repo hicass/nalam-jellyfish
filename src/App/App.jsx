@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
-import DonorLandingPage from '../pages/DonorLandingPage';
-import ProjectDetailPage from '../pages/ProjectDetaiPage';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import DonorLandingPage from "../pages/DonorLandingPage";
+import ProjectDetailPage from "../pages/ProjectDetaiPage";
+import "./App.css";
 
 function App() {
   return (

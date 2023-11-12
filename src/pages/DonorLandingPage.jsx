@@ -3,11 +3,11 @@ import MoreSupport from "../components/MoreSupport";
 
 export default function DonorLandingPage() {
   return (
-    <section>
-      <div className="flex">
-        <DonorProfile />
+    <div className="flex justify-center bg-[#EFF1FF]">
+      <DonorProfile />
+      <div className="w-3/5">
         <MoreSupport />
       </div>
-    </section>
+    </div>
   );
 }

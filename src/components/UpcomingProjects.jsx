@@ -4,7 +4,7 @@ import youngGirl from "../assets/younggirl.jpg";
 export default function UpcomingProjects() {
   return (
     <>
-      <div className="relative px-4">
+      <div className="relative mb-6">
         <img src={youngGirl} className="w-52" />
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-b from-transparent to-white"></div>
         <div className="absolute bottom-5 w-52 text-[#FFFFFF] ">
