@@ -1,16 +1,19 @@
 import { Link } from "react-router-dom";
 import UpcomingProjects from "./UpcomingProjects";
+import youngGirl from "../assets/younggirl.jpg";
+import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.jpeg";
 
 // props for number of girls entering whatever grade
 
 export default function MoreSupport() {
-  const numOfCards = 12;
+  // const numOfCards = 12;
 
-  const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
-    <Link to="/project">
-      <UpcomingProjects className="" key={index} />
-    </Link>
-  ));
+  // const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
+  //   <Link to="/project">
+  //     <UpcomingProjects className="" key={index} />
+  //   </Link>
+  // ));
 
   const buttonTypes = [
     "Education",
@@ -49,8 +52,16 @@ export default function MoreSupport() {
           id="scroll-bar-container"
           className="max-h-[500px] overflow-y-auto">
           <div className="flex flex-wrap justify-between ">
-            {/* <UpcomingProject /> */}
-            {repeatedCards}
+            <UpcomingProjects image={youngGirl} />
+            <UpcomingProjects image={img1} />
+            <UpcomingProjects image={img2} />
+            <UpcomingProjects image={youngGirl} />
+            <UpcomingProjects image={img1} />
+            <UpcomingProjects image={img2} />
+            <UpcomingProjects image={youngGirl} />
+            <UpcomingProjects image={img1} />
+            <UpcomingProjects image={img2} />
+            {/* {repeatedCards} */}
           </div>
         </div>
       </div>
