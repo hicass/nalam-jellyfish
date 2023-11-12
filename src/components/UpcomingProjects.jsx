@@ -1,19 +1,17 @@
-import younggirl from "../assets/younggirl.png";
-
 // props for number of girls entering whatever grade
 
-export default function UpcomingProject() {
-  return(
+export default function UpcomingProjects() {
+  return (
     <>
-    <div className="relative px-4">
-      <img src={younggirl} alt="Young girl" />
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-b from-transparent to-white"></div>
-      <div className="absolute bottom-5 w-52 text-[#FFFFFF] ">
-        {/* replace with prop for future implementation */}
-        <h2 className="text-xl">9 girls entering 11th grade</h2>
-        <p>Loren Ipsum</p>
+      <div className="relative px-4">
+        <img src="../assets/younggirl.png" />
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-b from-transparent to-white"></div>
+        <div className="absolute bottom-5 w-52 text-[#FFFFFF] ">
+          {/* replace with prop for future implementation */}
+          <h2 className="text-xl">9 girls entering 11th grade</h2>
+          <p>Loren Ipsum</p>
+        </div>
       </div>
-    </div>
     </>
-  )
+  );
 }

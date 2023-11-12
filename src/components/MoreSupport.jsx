@@ -1,4 +1,4 @@
-import UpcomingProject from "./UpcomingProjects";
+import UpcomingProjects from "./UpcomingProjects";
 
 // props for number of girls entering whatever grade
 
@@ -6,32 +6,39 @@ export default function MoreSupport() {
   const numOfCards = 5;
 
   const repeatedCards = Array.from({ length: numOfCards }, (item, index) => (
-    <UpcomingProject className="px-4" key={index} />
+    <UpcomingProjects className="px-4" key={index} />
   ));
+
+  const buttonTypes = [
+    "Education",
+    "Medical",
+    "Facility",
+    "Job",
+    "Upper Education",
+  ];
   return (
     <>
-      <div id="more-support-container" className="">
-        <h1>Show More Support On</h1>
+      <div id="more-support-container" className="px-6">
+        <h1 className="pb-10 text-4xl font-semibold text-[#25348F]">
+          Show More Support On
+        </h1>
 
         <div id="sort-by" className="flex flex-col">
           <div id="sort-section" className="flex">
-            <p>sort by:</p>
+            <div>
+              <p className="text-3xl text-base font-medium text-[#25348F]">
+                sort by:
+              </p>
+            </div>
             <div id="sort-buttons" className="flex">
-              <button className="mx-4 bg-[#25348F]" type="button">
-                <p className="text-white">Education</p>
-              </button>
-              <button className="mr-4 bg-[#25348F] " type="button">
-                <p className="text-white">Medical</p>
-              </button>
-              <button className="mr-4 bg-[#25348F] " type="button">
-                <p className="text-white">Facility</p>
-              </button>
-              <button className="mr-4 bg-[#25348F] " type="button">
-                <p className="text-white">Job</p>
-              </button>
-              <button className="bg-[#25348F]" type="button">
-                <p className="text-white">Upper Education</p>
-              </button>
+              {buttonTypes.map((buttonType, index) => (
+                <button
+                  key={index}
+                  className="mr-4 rounded-full bg-[#25348F]"
+                  type="button">
+                  <p className="px-10 text-white">{buttonType}</p>
+                </button>
+              ))}
             </div>
           </div>
         </div>
