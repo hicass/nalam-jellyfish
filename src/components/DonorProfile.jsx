@@ -1,5 +1,5 @@
 import ActiveProject from './ActiveProject';
-import donorSelfie from '../../public/assets/donor-selfie.png';
+import donorSelfie from '../assets/donor-selfie.png';
 
 export default function DonorProfile() {
   const name = 'Jane';
@@ -11,6 +11,7 @@ export default function DonorProfile() {
         <img
           src={donorSelfie}
           className="w-16 h-16 rounded-full object-cover"
+          alt="Donor"
         />
         <h1 className="mx-10 text-2xl mt-3.5 font-semibold">
           Hello, <span className="font-bold">{name}</span>

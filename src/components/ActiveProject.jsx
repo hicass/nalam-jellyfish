@@ -1,9 +1,9 @@
-import activeProjectGirl from '../../public/assets/active-project-girl.png';
+import activeProjectGirl from '../assets/active-project-girl.png';
 
 export default function ActiveProject({ progressPercent }) {
     return (
       <div className="w-6/8 relative mx-6 mt-2 rounded-xl">
-        <img src={activeProjectGirl} />
+        <img src={activeProjectGirl} alt="Young girl" />
   
         <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#25348F] via-[#25348F]  to-transparent opacity-60"></div>
   

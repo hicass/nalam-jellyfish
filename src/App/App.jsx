@@ -8,7 +8,7 @@ function App() {
     <main className="App">
       <Routes>
         <Route path="/donor" element={<DonorLandingPage />} />
-        <Route path="/donor" element={<ProjectDetailPage />} />
+        <Route path="/project" element={<ProjectDetailPage />} />
       </Routes>
     </main>
   );
