@@ -15,12 +15,12 @@ export default function ActiveProject({ progressPercent }) {
               Together with <span className="font-extrabold">72</span> donors
             </p>
           </div>
-          <h3 className="mx-3 mt-2 text-lg font-semibold text-left text-[#FFFFFF]">
+          <h3 className="mx-3 mt-2 text-base font-semibold text-left text-[#FFFFFF]">
             Launching <br />
             Disabled Kids <br />
             Program
           </h3>
-          <span className="mx-3 flex justify-end text-3xl text-5xl font-semibold text-[#FFFFFF]">
+          <span className="mx-3 flex justify-end text-2xl text-6xl font-semibold text-[#FFFFFF] absolute right-0 -bottom-9">
             {progressPercent}
           </span>
         </div>
