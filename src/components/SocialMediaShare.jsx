@@ -22,13 +22,13 @@ export default function SocialMediaShare() {
           </div>
           {/* JS logic, retrieve data from an object that stores number of hearts, clovers, other emojis and each quantity, if >= 0, button will appear */}
           <div id="like-buttons-1" className="mt-4 flex items-start">
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">❤️ from 5 donors</p>
             </button>
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">🍀 from 10 donors</p>
             </button>
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">🥰 from 23 donors</p>
             </button>
           </div>
@@ -52,10 +52,10 @@ export default function SocialMediaShare() {
           </div>
           {/* JS logic, retrieve data from an object that stores number of hearts, clovers, other emojis and each quantity, if >= 0, button will appear */}
           <div id="like-buttons-2" className="mt-4 flex items-start">
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">🍀 from 10 donors</p>
             </button>
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">🥰 from 23 donors</p>
             </button>
           </div>
@@ -78,11 +78,11 @@ export default function SocialMediaShare() {
           </div>
           {/* JS logic, retrieve data from an object that stores number of hearts, clovers, other emojis and each quantity, if >= 0, button will appear */}
           <div id="like-buttons-3" className="mt-4 flex items-start">
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">❤️ from 5 donors</p>
             </button>
 
-            <button className="mr-6 rounded-full border-2 border-[#25348F]">
+            <button className="mr-6 rounded-full border-2 border-[#25348F] hover:bg-[#25348F] hover:text-white">
               <p className="p-3">🥰 from 23 donors</p>
             </button>
           </div>

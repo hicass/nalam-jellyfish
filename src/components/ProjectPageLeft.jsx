@@ -4,7 +4,7 @@ import younggirl from "../assets/younggirl.jpg";
 export default function ProjectPageLeft() {
   return (
     <>
-      <div className="relative h-[800px] w-[500px]">
+      <div className="h-screen w-[500px] sticky top-0">
         <img
           src={younggirl}
           className="h-full w-full object-cover"

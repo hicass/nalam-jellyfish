@@ -40,7 +40,7 @@ export default function MoreSupport() {
               {buttonTypes.map((buttonType, index) => (
                 <button
                   key={index}
-                  className="mr-4 rounded-full border-2 border-[#25348F] bg-[#EFF1FF] text-[#25348F] hover:bg-[#25348F] hover:text-white"
+                  className="mr-2 rounded-full border font-light border-[#25348F] bg-[#EFF1FF] text-[#25348F] hover:bg-[#25348F] hover:text-white"
                   type="button"
                 >
                   <p className="px-10">{buttonType}</p>
@@ -51,9 +51,9 @@ export default function MoreSupport() {
         </div>
         <div
           id="scroll-bar-container"
-          className="max-h-[500px] overflow-y-auto"
+          className="max-h-[580px] overflow-y-auto"
         >
-          <div className="flex flex-wrap justify-between ">
+          <div className="flex flex-wrap justify-between mr-6">
             <Link to="/project">
               <UpcomingProjects image={youngGirl} />
             </Link>
